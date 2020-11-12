@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/home/www/client/www/bor/gpal/admin/.htpasswd"
+Require valid-user

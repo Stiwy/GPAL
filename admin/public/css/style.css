@@ -1,0 +1,284 @@
+/*Global*/
+body {
+	width: 100%;
+	margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+#center_block {
+	width: 1100px;
+    margin: 16px auto 4px auto;
+    position: relative;
+}
+
+#logo_robe_medical {
+	width: 212px;
+    height: 78px;
+    margin-bottom: 15px;	
+}
+#text_header {
+	float: none;
+    display: inline-block;
+    height: 65px;
+    width: auto;
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    text-align: right;
+    color: #000;
+    margin-left: 20%;
+    border: 0px solid #69F;
+    top: -15px;
+}
+#text_header > div {
+	text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#blue_banner {
+	background: #01abd4;
+	height: 50px;
+}
+
+#blue_banner_div {
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 8px;
+}
+
+section div {
+	text-align: center;
+}
+/*Header*/
+
+#add_member_section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add_member_div {
+    text-align: center;
+}
+
+.add_member_div p {
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+#form_add_member {
+    width: 30%;
+    margin: 40px auto;
+}
+
+.add_member_block {
+    display: block;
+}
+
+.add_member_block > label{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.add_member_block > input{
+    height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: solid 2px #01abd4;
+    padding-left: 5px;
+    font-size: 1em;
+    outline : none;
+}
+
+#button_add_member {
+    background: #117198;
+    color: white;
+    border-radius: 15px;
+    box-shadow: grey 3px 3px 3px;
+    font-size: 1rem;
+    padding: 3px 8px;
+    transition-duration: 0.4s;
+}
+#button_add_member:hover {
+    background: #01abd4;
+    color: white;
+    cursor: pointer;
+    box-shadow: #b3b3b3 3px 3px 3px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+/*FlashMessage*/
+#bannerErrorMessage {
+    background: #e60000;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+#bannerErrorMessage ul{
+    list-style: none;
+}
+
+#bannerErrorMessage ul li{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+}
+
+#bannerSuccessMessage {
+    background: rgb(0, 230, 0);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+#bannerSuccessMessage ul{
+    list-style: none;
+}
+
+#bannerSuccessMessage ul li{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 320px) {
+    #logo_robe_medical, #text_header {
+        display: none;
+    }
+    #center_block {
+        margin: unset;
+    }
+
+    #blue_banner_div {
+        margin: unset;
+        width: 100%;
+    }
+
+    #add_member_section {
+        margin: unset;
+    }
+
+    .add_member_div {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .add_member_div h1{
+        font-size: 1.4em;
+    }
+
+    .add_member_div p{
+        font-size: 0.9em;
+    }
+
+    #form_add_member {
+        margin: unset;
+        width: 100vw;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #form_add_member label {
+        font-size: 1em;
+    }
+
+    .add_member_block {
+        text-align: center;
+    }
+
+    #form_add_member input {
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #bannerSuccessMessage, #bannerErrorMessage {
+        width: 100vw;
+        padding: 1px;
+    }
+
+    #bannerSuccessMessage ul li, #bannerErrorMessage ul li{
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    #logo_robe_medical, #text_header {
+        display: none;
+    }
+    #center_block {
+        margin: unset;
+    }
+
+    #blue_banner_div {
+        margin: unset;
+        width: 100%;
+    }
+
+    #add_member_section {
+        margin: unset;
+    }
+
+    .add_member_div {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .add_member_div h1{
+        font-size: 1.4em;
+    }
+
+    .add_member_div p{
+        font-size: 0.9em;
+    }
+
+    #form_add_member {
+        margin: unset;
+        width: 100vw;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #form_add_member label {
+        font-size: 1em;
+    }
+
+    .add_member_block {
+        text-align: center;
+    }
+
+    #form_add_member input {
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #bannerSuccessMessage, #bannerErrorMessage {
+        width: 100vw;
+        padding: 1px;
+    }
+
+    #bannerSuccessMessage ul li, #bannerErrorMessage ul li{
+        font-size: 0.9em;
+    }
+}

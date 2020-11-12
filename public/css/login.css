@@ -1,0 +1,107 @@
+#login {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border: white ridge 1px;
+	box-shadow: #b3b3b3 3px 3px 3px;
+	width: 80%;
+}
+
+#login > h1 {
+	text-align: center;
+}
+
+#login > p {
+	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color:#f2771a;
+}
+
+#login > form {
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.loginBlock {
+	display: flex;
+	flex-direction: column;
+}
+
+.loginBlock > label{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.loginBlock > input{
+	height: 30px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	border: solid 2px #01abd4;
+	padding-left: 5px;
+	font-size: 1em;
+	outline : none;
+}
+#button_login {
+	text-align: center;
+    background: #FC7412;
+    padding: 8px, 12px, 8px, 12px;
+    height: 30px;
+    border: white 1px solid;
+    margin-top: 12.5px;
+    border-radius: 5px;
+    box-shadow: black 1px, 1px, 1px;
+    color: white;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 320px) {
+	#login {
+		margin: unset;
+	}
+
+	#login h1 {
+		font-size: 1.4em;
+	}
+
+	#login p {
+		font-size: 1em;
+		margin-bottom: 10%;
+	}
+
+	#login > form {
+		width: 100vw;
+	}
+
+	.loginBlock > label{
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	#login {
+		margin: unset;
+		width: 100%;
+	}
+
+	#login h1 {
+		font-size: 1.4em;
+	}
+
+	#login p {
+		font-size: 1em;
+		margin-bottom: 10%;
+	}
+
+	#login > form {
+		width: 100vw;
+	}
+
+	.loginBlock > label{
+		font-size: 1em;
+	}
+}
